@@ -1,0 +1,7 @@
+@media screen and (max-width: 600px){
+    iframe{
+        border-radius: 10px;
+        width: 90%;
+        height: 90%;
+    }
+}
