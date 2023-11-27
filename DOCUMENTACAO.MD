@@ -96,7 +96,7 @@ src/
 
 ##############################################
 
-# Documentação do Código - Site "Nome do Seu Site"
+# Documentação do Código 
 
 ## Arquivo: `index.js`
 
