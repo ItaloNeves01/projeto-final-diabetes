@@ -11,6 +11,7 @@ import img9 from '../Image/img9.png';
 import img10 from '../Image/img10.png';
 import { useEffect, useState } from 'react';
 import './styles/TemplateMobile.css'
+import './styles/TemplateWeb.css'
 
 const Template = ({ id, title, content, onClick }) => {
   const [contentLength, setContentLength] = useState(0);

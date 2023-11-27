@@ -1,4 +1,5 @@
 import './styles/MapComponentMobile.css'
+import './styles/MapComponentWeb.css'
 
 
 const MapComponent = () => {
