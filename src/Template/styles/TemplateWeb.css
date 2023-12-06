@@ -42,7 +42,8 @@
       color: rgb(1, 0, 0); 
       font-size: 18px;
       font-weight: bold; 
-      z-index: 1;
+      z-index: 1;text-align: center;
+    
     }
 
     .news-card img {
