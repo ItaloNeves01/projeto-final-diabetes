@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4B4C46; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+  }
+  
+  /* Estilizando o link no footer */
+  footer p {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+    margin: 0 10px; /* Espaçamento entre os links */
+  }
+
+  footer img{ 
+    width: 150px;
+    height: 80px;
+  }

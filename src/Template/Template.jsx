@@ -71,7 +71,7 @@ const Template = ({ id, title, content, onClick }) => {
     <div className="horizontal-scroll-container">
       <div className="news-card" onClick={handleClick}>
 
-        <p>{title}</p>
+        <p className="titulo-card">{title}</p>
         <img src={imageSource} alt={title} />
       </div>
 
