@@ -6,6 +6,10 @@ import MapComponent from "../map/MapComponent.jsx";
 import TemplateDetails from "../TemplateDetails/TemplateDetails.jsx";
 import Chat from '../Chat/Chat.jsx'
 import "./styles/HomeWeb.css"
+import Navbar from "../components/layout/Navbar.jsx";
+import diahelp from "./diahelp.png";
+import Footer from "../components/layout/Footer.jsx";
+
 
 const Home = () => {
 
@@ -35,13 +39,17 @@ const Home = () => {
   return (
     <div className="body">
       <div className="container">
-        <div className="head">
-          <p>Controle e Informações sobre a Diabetes</p>
+
+
+        <Navbar/>
+        <div className="container-banner"> 
+            <img src={diahelp} alt="banner-home"/>
         </div>
+        
         <div className="conteudos">
           <div className="containerRow">
+          <p className="dicas">Dicas</p>
             <div className="news">
-              <p className="dicas">Dicas</p>
               {newsData.map((news) => (
                 <Template
                   key={news.id}
@@ -67,6 +75,14 @@ const Home = () => {
               <p className="hospitais_proximos">Hospitais Proximos</p>
               <div className="hospitais_Map">
                 <MapComponent />
+                  <div className="hospitais_text"> 
+                    <p>Utilize o mapa intuitivo para localizar os principais 
+                      hospitais especializados no tratamento da diabetes. 
+                      Essa ferramenta permite encontrar rapidamente centros de saúde próximos, 
+                      com equipes especializadas e serviços dedicados ao cuidado dessa condição. 
+                      Busque, encontre e garanta um atendimento de qualidade para o gerenciamento da
+                      diabetes.</p> 
+                  </div>
               </div>
             </div>
           </div>
@@ -85,6 +101,7 @@ const Home = () => {
             </ul>
           </div>
         </div>
+        <Footer/>
       </div>
     </div>
   );

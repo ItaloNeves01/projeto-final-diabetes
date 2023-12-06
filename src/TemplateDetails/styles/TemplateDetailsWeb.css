@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.news-details{
+    padding: 10px;
+}
+
+.news-details h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.news-details-card p{
+    font-size: 20px;
+    font-family: 'OpenSans', sans-serif, 
+    ;
+}

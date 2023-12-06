@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+.navbar {
+    background-color: #fffdfd;  
+    color: rgb(0, 0, 0);
+    padding: 30px;  
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .navbar ul{ 
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    margin: 0;
+  }
+  /* Estilos para o item ativo */
+  .navbar ul li {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .navbar ul li.active{
+    background-color: #ffffff;
+  }
+
+  .navbar ul li:hover {
+    color: #b8dae4;
+  }

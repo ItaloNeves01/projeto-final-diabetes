@@ -1,5 +1,6 @@
 @media screen and (min-width: 601px){
     iframe{
+        margin: 20px;
         border-radius: 10px;
         width: 90%;
         height: 90%;
